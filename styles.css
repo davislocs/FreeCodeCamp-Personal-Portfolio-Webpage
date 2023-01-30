@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+:root{
+    --color-primary-1: rgb(45,46,49);
+    --color-primary-2: rgb(69,86,125);
+    --color-primery-3: rgb(48,56,65);
+
+    --color-accent-1: rgb(190,49,68);
+    --color-accent-2:;
+    --color-accent-3:;
+
+
+    --color-text-1: rgb(240,240,240);
+    --color-text-2: rgb(159,47,58);
+    --color-text-3:;
+
+    --font-weight-light: 300;
+    --font-weight-medium: 400;
+    --font-wieght-bold: 700;
+
+    --font-size-very-small: 1rem;
+    --font-size-small: 1.2rem;
+    --font-size-medium-small: 1.6rem;
+    --font-size-medium: 1.8rem;
+    --font-size-medium-big: 2.2rem;
+    --font-size-big: 2.6rem;
+    --font-size-very-big: 3rem;
+
+    --font-family: "Poppins", sans-serif;
+    --font-family-2222: "Raleway", sans-serif;
+}
+html{
+    font-size: 62.5%;
+    font-family: var(--font-family);
+    color: var(--color-text-1);
+}
+#header{
+    background-color: var(--color-accent-1);
+    width: 100%;
+    height: 6.5rem;
+    position: fixed;
+}
+#navbar{
+    height: 100%;
+    float: right;
+}
+#navbar *{
+    height: 100%;
+}
+#navbar ul{
+    
+}
+#navbar ul li{
+    display: inline-block;
+    margin-right: 4rem;
+    list-style-type: none;
+}
+#navbar ul li .nav-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-medium);
+    color: var(--color-text-1);
+}
+#welcome-section{
+    margin-top: 6.5rem;
+    height: calc(100vh - 6.5rem);
+    background-color: var(--color-primary-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#welcome-section h1{
+    font-size: var(--font-size-very-big);
+}
+#welcome-section p{
+    color: var(--color-text-2);
+    font-size: var(--font-size-medium-big);
+    font-weight: var(--font-weight-light);
+}
+#projects{
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--color-primary-2);
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.project-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-link img{
+    width: 100%;
+    height: 80%;
+    max-width: 100rem;
+    object-fit:fill;
+}
