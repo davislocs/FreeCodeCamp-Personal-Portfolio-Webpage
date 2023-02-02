@@ -25,39 +25,46 @@
         </section>
         <main id="projects">
             <h1>These are some of my projects</h1>
-            <section class="project-tile">  
-                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"><h2>Tribute Page</h2></a>
-            </section>
-            <section class="project-tile">
-                <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"><h2>Random Quote Machine</h2></a>
-            </section>
-            <section class="project-tile">
-                <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"><h2>JavaScript Calculator</h2></a>
-            </section>
-            <section class="project-tile">
-                <a href="https://codepen.io/freeCodeCamp/full/mVEJag" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"><h2>Map Data Across the Globe</h2></a>
-            </section>
-            <section class="project-tile">
-                <a href="https://codepen.io/freeCodeCamp/full/wGqEga" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"><h2>Wikipedia viewer</h2></a>
-            </section>
-            <section class="project-tile">
-                <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"><h2>Tic Tac Toe Game</h2></a>
-            </section>    
-            <button href="https://codepen.io/FreeCodeCamp/" value="Show all">
-                <i class="fas fa-chevron-right"></i>
+            <div class="project-grid">
+                <section class="project-tile">  
+                    <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"><h2><span><</span>Tribute Page<span>/></span></h2></a>
+                </section>
+                <section class="project-tile">
+                    <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"><h2><span><</span>Random Quote Machine<span>/></span></h2></a>
+                </section>
+                <section class="project-tile">
+                    <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"><h2><span><</span>JavaScript Calculator<span>/></span></h2></a>
+                </section>
+                <section class="project-tile">
+                    <a href="https://codepen.io/freeCodeCamp/full/mVEJag" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"><h2><span><</span>Map Data Across the Globe<span>/></span></h2></a>
+                </section>
+                <section class="project-tile">
+                    <a href="https://codepen.io/freeCodeCamp/full/wGqEga" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"><h2><span><</span>Wikipedia viewer<span>/></span></h2></a>
+                </section>
+                <section class="project-tile">
+                    <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" class="project-link" target="_blank"><img alt="project-picture" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"><h2><span><</span>Tic Tac Toe Game<span>/></span></h2></a>
+                </section>    
+            </div>
+            <button class="btn">
+                <a href="https://codepen.io/FreeCodeCamp/"><p>Show all</p><i class="fas fa-chevron-right"></i></a> 
             </button>    
         </main>
         <footer id="footer">
-            <h1>Let's work together...</h1>
-            <p>How do you take your coffee?</p>
-            <a class="soc-net" href="https://facebook.com/freecodecamp"><i class="fab fa-facebook-square"></i></a>
-            <a id="profile-link" target="_blank" class="soc-net" href="https://github.com/freecodecamp"><i class="fab fa-github"></i></a>
-            <a class="soc-net" href="https://twitter.com/freecodecamp"><i class="fab fa-twitter"></i></a>
-            <a class="soc-net" href="mailto:example@example.com"><i class="fas fa-at"></i></a>
-            <a class="soc-net" href="https://personal-portfolio.freecodecamp.rocks/tel:555-555-5555"><i class="fas fa-mobile-alt"></i></a>
-            <hr></hr>
-            <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
-            <a id="corp">© Created for freeCodeCamp<i class="fab fa-free-code-camp"></i></a>
+            <div class="contacts">
+                <h1>Let's work together...</h1>
+                <p>How do you take your coffee?</p>
+                <div class="contacts-inline">
+                    <a class="soc-net" href="https://facebook.com/freecodecamp"><i class="fab fa-facebook-square"></i><p>Facebook</p></a>
+                    <a id="profile-link" target="_blank" class="soc-net" href="https://github.com/freecodecamp"><i class="fab fa-github"></i><p>GitHub</p></a>
+                    <a class="soc-net" href="https://twitter.com/freecodecamp"><i class="fab fa-twitter"></i><p>Twitter</p></a>
+                    <a class="soc-net" href="mailto:example@example.com"><i class="fas fa-at"></i><p>Send a mail</p></a>
+                    <a class="soc-net" href="https://personal-portfolio.freecodecamp.rocks/tel:555-555-5555"><i class="fas fa-mobile-alt"></i><p>Call me</p></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+                <a id="corp" href="https://www.freecodecamp.com/">© Created for freeCodeCamp<i class="fab fa-free-code-camp"></i></a>
+            </div>
         </footer>
 	</body>
 </html>
